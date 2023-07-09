@@ -2,7 +2,6 @@
 
 $end = 30;
 $costum = $end;
-echo '<pre>';
 for ($i = 1; $i <= $end; $i++) {
     if ($i % 2 != 0) {
         $costum--;
@@ -11,7 +10,6 @@ for ($i = 1; $i <= $end; $i++) {
             echo "*";
         }
 
-        echo '<br>';
+        echo "\n";
     }
 }
-echo '</pre>';
